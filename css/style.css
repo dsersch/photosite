@@ -10,6 +10,11 @@ body {
     font-size: 10px;
 }
 
+a, a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
 .navigation_bar {
     position: absolute;
     z-index: 1;
@@ -31,11 +36,6 @@ nav ul {
     font-size: 1.5rem;
     transition: all .3s;
     z-index: 1;
-}
-
-a, a:visited {
-    text-decoration: none;
-    color: black;
 }
 
 .nav:hover {
@@ -82,7 +82,7 @@ a, a:visited {
     transition: all .3s;
 }
 
-.book_button:visited {
+.book_button, .book_button:visited {
     color: white;
 }
 
