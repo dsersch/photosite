@@ -1,5 +1,3 @@
-/*----Nav Bar----*/
-
 * {
     margin: 0;
     padding: 0;
@@ -14,6 +12,8 @@ a, a:visited {
     text-decoration: none;
     color: #000;
 }
+
+/*----Nav Bar----*/
 
 .navigation_bar {
     position: absolute;
@@ -201,8 +201,12 @@ nav ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     height: 800px;
+    background-image:
+        linear-gradient(90deg, rgba(255,255,255,1) 44%, rgba(255,255,255,0.5) 100%),
+        url('../images/form.jpg');
+    background-size: cover;
 }
 
 .form_title {
@@ -210,6 +214,12 @@ nav ul {
     font-weight: 900;
     font-size: 3rem;
     transform: translateY(-2rem);
+    margin-left: 5%;
+    text-align: center;
+}
+
+.contact_form {
+    margin-left: 7%;
 }
 
 .form_section {
@@ -238,8 +248,9 @@ textarea {
     padding: .5rem;
     outline: none;
     border-radius: 10px;
-    width: 100%;
+    width: 104%;
     height: 12rem;
     resize: none;
     font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
