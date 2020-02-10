@@ -221,6 +221,7 @@ a, a:visited {
 }
 
 .contact_form {
+    margin-left: 5%;
     width: 33%;
 }
 
@@ -300,9 +301,8 @@ textarea {
         align-items: center;
     }
     .contact_form {
-        margin-left: 0;
+        margin-left: -7%;
         width: 50%;
-        transform: translate(-4rem, -1.5rem);
     }
 }
 
