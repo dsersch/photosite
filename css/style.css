@@ -222,7 +222,6 @@ a, a:visited {
 }
 
 .contact_form {
-    margin-left: 7%;
     width: 33%;
 }
 
@@ -312,6 +311,7 @@ textarea {
         font-size: 1rem;
     }
     .contact_form {
+        margin-left: -7%;
         width: 80%;
     }
 }
