@@ -164,8 +164,7 @@ a, a:visited {
     font-weight: 900;
     font-size: 2rem;
     transition: all .5s;
-    opacity: 0;
-    transform: translateY(100px);
+    
 }
 
 
@@ -180,14 +179,7 @@ a, a:visited {
     transition: all .3s;
 }
 
-.gal_section:hover {
-    width: 150%;
-}
 
-.gal_section:hover .card {
-    opacity: 1;
-    transform: translateY(0);
-}
 
 .gal_one {
     background-image: url("../images/wedding.jpg");   
@@ -231,6 +223,7 @@ a, a:visited {
 
 .contact_form {
     margin-left: 7%;
+    width: 33%;
 }
 
 .form_section {
@@ -245,6 +238,7 @@ a, a:visited {
 
 .text_input {
     border: none;
+    background-color: transparent;
     border-bottom: 1px solid darkgray;
     border-radius: 5px 5px 0 0;
     width: 100%;
@@ -262,7 +256,58 @@ textarea {
     border-radius: 10px;
     width: 104%;
     height: 12rem;
+    background-color: transparent;
     resize: none;
     font-size: 1rem;
     font-family: 'Lato', sans-serif;
+}
+
+/*---Responsive----*/
+
+/* --Gallery Hover-- */
+
+@media screen and (min-width: 1001px) {
+    .card {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    .gal_section:hover {
+        width: 150%;
+    }
+    
+    .gal_section:hover .card {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    /*--Gallery--*/
+    .gallery {
+        flex-direction: column;
+        height: 400vh;
+    }
+
+    .gal_one {
+        background-position: top;
+    }
+
+
+    /*--Contact--*/
+
+    .contact {
+        align-items: center;
+    }
+    .contact_form {
+        width: 50%
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .text_input {
+        font-size: 1rem;
+    }
 }
