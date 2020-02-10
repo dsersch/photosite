@@ -302,6 +302,7 @@ textarea {
         align-items: center;
     }
     .contact_form {
+        margin-left: 0;
         width: 50%
     }
 }
@@ -309,5 +310,8 @@ textarea {
 @media screen and (max-width: 600px) {
     .text_input {
         font-size: 1rem;
+    }
+    .contact_form {
+        width: 80%;
     }
 }
