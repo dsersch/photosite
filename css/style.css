@@ -325,6 +325,10 @@ textarea {
 }
 
 @media screen and (max-width: 600px) {
+    .navigation_bar {
+        font-size: 1rem;
+        justify-content: center;
+    }
     .text_input {
         font-size: 1rem;
     }
