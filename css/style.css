@@ -49,7 +49,7 @@ a, a:visited {
 
 .header {
     background-image: linear-gradient(rgba(255,255,255,.7), rgba(255,255,255,.7)),
-        url("../images/header.jpg");
+        url("../images/header-small.jpg");
     background-size: cover;
     background-position: top;
     height: 95vh;
@@ -181,20 +181,20 @@ a, a:visited {
 
 
 .gal_one {
-    background-image: url("../images/wedding.jpg");   
+    background-image: url("../images/wedding-small.jpg");   
 }
 
 .gal_two {
-    background-image: url("../images/family.jpg");
+    background-image: url("../images/family-small.jpg");
     background-position: 50% 50%;
 }
 
 .gal_three {
-    background-image: url("../images/engagement.jpg");
+    background-image: url("../images/engagement-small.jpg");
 }
 
 .gal_four {
-    background-image: url("../images/maternity.jpg");
+    background-image: url("../images/maternity-small.jpg");
 }
 
 /*----Contact----*/
@@ -207,7 +207,7 @@ a, a:visited {
     height: 800px;
     background-image:
         linear-gradient(90deg, rgba(255,255,255,1) 44%, rgba(255,255,255,0.5) 100%),
-        url('../images/form.jpg');
+        url('../images/form-small.jpg');
     background-size: cover;
     background-position: center;
 }
